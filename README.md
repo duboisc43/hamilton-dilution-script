@@ -42,6 +42,9 @@ It helps demonstrate how liquid handling automation logic can be expressed progr
 
 This logic was designed to support high-throughput sample preparation for next-generation sequencing (NGS) pipelines, where accurate dilutions are critical before PCR amplification steps.
 
+
+<img width="1422" height="604" alt="HSL_Dilution_Block_allocell" src="https://github.com/user-attachments/assets/382ca8ce-3906-4ac7-bfec-b81f31296998" />
+
 ---
 
 ## 👤 Author
