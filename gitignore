@@ -1,0 +1,25 @@
+# Visual Studio
+.vscode/
+*.exe
+*.obj
+*.suo
+*.user
+*.vcxproj.*
+*.ncb
+*.log
+*.idb
+*.pch
+*.aps
+*.sdf
+*.opensdf
+*.tlog
+ipch/
+*.cache
+*.pdb
+*.ilk
+*.log
+*.tmp
+*.bak
+*.swp
+Debug/
+Release/
