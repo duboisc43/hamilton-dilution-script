@@ -51,6 +51,5 @@ This logic was designed to support high-throughput sample preparation for next-g
 
 **Collin Dubois**  
 Email: collin.dubois@gmail.com  
-GitHub: [github.com/yourusername](https://github.com/yourusername)  
-LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/yourname)
+
 
