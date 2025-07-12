@@ -1,65 +1,53 @@
-# hamilton-dilution-script
-HSL method for 1:4 dilution on Hamilton Microlab STAR for pre-PCR multiplexing
-# HSL Script: 1:4 Sample Dilution for Pre-PCR Multiplexing
+# 1:4 Sample Dilution Logic – C++ Simulation
 
-This repository contains a Hamilton Scripting Language (HSL) method written for the Microlab STAR liquid handling platform. The script performs a 1:4 dilution of samples across a 96-well plate layout, intended for pre-PCR multiplex preparation.
+This project simulates a 1:4 dilution process across a 96-well plate, typically performed on a Hamilton Microlab STAR liquid handling robot. The logic was originally developed in HSL (Hamilton Scripting Language) and ported to C++ for demonstration and educational purposes.
 
 ---
 
-## 💡 Project Overview
+## 💡 Purpose
 
-This HSL method:
+This simulation models a common pre-PCR multiplexing protocol:
+- Add 75 µL of diluent to each well of the destination plate
+- Add 25 µL of sample from the source plate
+- Mix 3 times with 50 µL
+- One tip per well
 
-- Transfers 25 µL of each sample from a source plate to a destination plate
-- Adds 75 µL of diluent before the sample to ensure accurate mixing
-- Mixes the resulting solution 3 times with 50 µL volume
-- Uses a fresh tip for each sample
-- Tracks source and destination wells across all 96 wells
-
----
-
-## 🧪 Use Case
-
-Designed for NGS workflows requiring pre-PCR dilutions, especially in multiplexed sample preparation.
+It helps demonstrate how liquid handling automation logic can be expressed programmatically.
 
 ---
 
-## 🔧 Script Highlights
+## 🧪 Technologies
 
-- Compatible with Hamilton Microlab STAR / VENUS software
-- Clearly structured logic for ease of modification
-- Modular format for potential automation scaling
-
----
-
-## 📁 Files
-
-- `dilution.hsl`: Main HSL script
+- **Language:** C++
+- **IDE:** Visual Studio (or any C++ compiler)
 
 ---
 
-## 🚀 How to Use
+## 🚀 How to Run
 
-1. Open the script in the VENUS Method Editor.
-2. Assign labware positions according to your instrument setup.
-3. Run the method after simulating or validating steps.
-4. Adjust `DiluentVol` and `SampleVol` variables if different ratios are required.
-
----
-
-## 📷 Screenshot
-
-_You can add a screenshot here of the VENUS Method Editor or pipetting layout to make it visual._
+1. Clone or download this repository.
+2. Open `Dilution1to4C++.cpp` in your IDE.
+3. Compile and run the program.
+4. The output will simulate each step of the dilution protocol to the console.
 
 ---
 
-## 📜 License
+## 📄 File
 
-MIT License (or choose another if applicable).
+- `Dilution1to4C++.cpp` — C++ source file simulating a full 96-well pipetting procedure
+
+---
+
+## 🧬 Original Use Case
+
+This logic was designed to support high-throughput sample preparation for next-generation sequencing (NGS) pipelines, where accurate dilutions are critical before PCR amplification steps.
 
 ---
 
 ## 👤 Author
 
-Collin Dubois  
-Email: collin.dubois@gmail.
+**Collin Dubois**  
+Email: collin.dubois@gmail.com  
+GitHub: [github.com/yourusername](https://github.com/yourusername)  
+LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/yourname)
+
